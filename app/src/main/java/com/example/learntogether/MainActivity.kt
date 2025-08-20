@@ -52,8 +52,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun GreetingText(titre: String, description: String, longtext: String, modifier: Modifier= Modifier) {
-    Column(
-    ) {
+    Column {
         Text(
             text = titre,
             fontSize = 24.sp,
